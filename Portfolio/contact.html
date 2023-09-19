@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piyush - Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Piyush's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                <div>Welcome to</div>
+                <!-- <div style="width: 103%;">I am a passionate</div> -->
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn"><a href="Resume.pdf" target="_blank">Resume</a></button>
+                    <button class="btn"><a href="https://www.linkedin.com/in/piyush-narayan-736a4b248/"
+                            target="_blank">LinkedIn</a></button>
+                    <button class="btn"><a href="https://github.com/piyush9012" target="_blank">Github</a></button>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="piyush.jpg" alt="Piyush Narayan">
+            </div>
+        </section>
+        <hr>
+        <section class="fifthSection">
+            <h1>Contact Me</h1>
+            <div class="contactForm">
+                <h1>Contact me for Work/Enquiries</h1>
+                <form>
+                    <div class="mb-3">
+                        <label for="clientEmail" class="form-label">Name</label>
+                        <input type="name" class="form-control" id="clientEmail" aria-describedby="Name">
+                    </div>
+                    <div class="mb-3">
+                        <label for="clientEmail" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="clientEmail" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text">We'll never share your Email & Phone Number with anyone else.</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="clientPhone" class="form-label">Phone Number</label>
+                        <input type="tel" class="form-control" id="clientPhone" aria-describedby="Number">
+                    </div>
+                    <div class="mb-3" id="form-check">
+                        <input type="checkbox" class="form-check-input" id="isclient">
+                        <label class="form-check-label" for="isclient">I agree to the Terms & Conditions</label>
+                    </div>
+                    <button type="submit" class="btn btn-sn">Submit</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Piyush's Developer Portfolio</h3>
+                <div class="footer-rights">Terms & Conditions | Privacy Policy | Security</div>
+                <div class="footer-rights">&#169 2023 | Piyush Narayan</div>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact Me</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Piyush❜s Portfolio.'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+</html>

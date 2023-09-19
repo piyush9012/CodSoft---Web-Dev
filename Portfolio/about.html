@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piyush - Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Piyush's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                <div>Welcome to</div>
+                <!-- <div style="width: 103%;">I am a passionate</div> -->
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn"><a href="Resume.pdf" target="_blank">Resume</a></button>
+                    <button class="btn"><a href="https://www.linkedin.com/in/piyush-narayan-736a4b248/"
+                            target="_blank">LinkedIn</a></button>
+                    <button class="btn"><a href="https://github.com/piyush9012" target="_blank">Github</a></button>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="piyush.jpg" alt="Piyush Narayan">
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection">
+            <h1>About Me</h1>
+            <div class="aboutme">
+                <div class="info">I am a passionate and creative professional dedicated to crafting meaningful and
+                    impactful experiences through design. With a background in <span class="purple"> Front End
+                        Development</span>, I thrive on solving complex challenges and turning them into elegant
+                    solutions. My work is driven by a deep curiosity, a commitment to excellence, and a love for
+                    collaboration. Whether it's creating captivating visuals, designing user-friendly interfaces, or
+                    developing innovative solutions, I approach each project with enthusiasm and a keen eye for detail.
+                    I believe in the power of design to inspire, inform, and connect, and I'm excited to continue
+                    pushing boundaries and creating remarkable experiences for clients and users alike.</div>
+                <div class="pic"><img src="piyush-2.jpg" width="280" height="320" alt="Piyush Narayan"></div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Piyush's Developer Portfolio</h3>
+                <div class="footer-rights">Terms & Conditions | Privacy Policy | Security</div>
+                <div class="footer-rights">&#169 2023 | Piyush Narayan</div>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact Me</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Piyush❜s Portfolio.'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+</html>
